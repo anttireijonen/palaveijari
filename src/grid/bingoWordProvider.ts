@@ -1,7 +1,7 @@
 class BingoWordProvider {
     async getWords(): Promise<string[]>
     {
-        const response = await fetch('words.txt');
+        const response = await fetch('palaveijari/words.txt');
         
         if (!response.ok) {
             throw new Error("Words couldn't be loaded");
