@@ -1,0 +1,2 @@
+# palaveijari
+Palaveijari-bingo
